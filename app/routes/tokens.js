@@ -5,18 +5,19 @@ import { Promise } from 'rsvp';
 export default class TokensRoute extends Route {
     @service hub;
 
-    beforeModel() {
+    beforeModel(transition) {
         return new Promise((resolve, reject) => {
-            this.hub.onSuccessCallback = async () => {
-                try {
+            if (Object.keys(transition.to.queryParams).length > 0) {
+                this.hub.onSuccessCallback = async () => {
                     this.transitionTo('home');
-                } catch (error) {
-                    reject(error);
-                }
-            };
-            this.hub.onErrorCallback = async () => {
+                };
+                this.hub.onErrorCallback = async () => {
+                    reject();
+                };
+            }
+            else {
                 reject();
-            };
+            }
         });
     }
 }
