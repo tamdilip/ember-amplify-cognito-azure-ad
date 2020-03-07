@@ -26,6 +26,7 @@ On succesful login should see below page :)
 ### References
 * [Amazon Cognito user pool OAuth 2.0 grants](https://aws.amazon.com/blogs/mobile/understanding-amazon-cognito-user-pool-oauth-2-0-grants/)
 * [Amplify federated sign-in](https://aws-amplify.github.io/docs/js/authentication)
+* [Cognito User Pool with an Azure AD idp setup](https://medium.com/@zippicoder/setup-aws-cognito-user-pool-with-an-azure-ad-identity-provider-to-perform-single-sign-on-sso-7ff5aa36fc2a)
 
 
 ### Console
