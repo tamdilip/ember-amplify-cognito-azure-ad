@@ -1,4 +1,7 @@
-# ember-amplify-cognito-azure-ad
+# ember-amplify-cognito-azure-ad 
+[![Generic badge](https://img.shields.io/badge/gh%20pages-🚩%20Live%20demo-blue.svg)](https://tamdilip.github.io/ember-amplify-cognito-azure-ad)
+
+
 A basic SAML based authroization code grant flow authentication using AWS Cognito with Azure Active Directory IdP through AWS Amplify with EmberJS (octane).
 
 This repo gives a gist of handling federated sign-in using Amplify's Hub events on callback redirects in ember flow without any promise callbacks.
