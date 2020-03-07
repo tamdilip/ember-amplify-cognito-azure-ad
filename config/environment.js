@@ -26,7 +26,7 @@ module.exports = function (environment) {
             domain: 'dilipan-test-login-app.auth.us-east-1.amazoncognito.com',
             scope: ['openid'],
             redirectSignIn: ':4200/tokens',
-            redirectSignOut: ':4200/tokens',
+            redirectSignOut: ':4200/',
             responseType: 'code'
           },
           userPoolWebClientId: 'r9vv0bjhg0u2nqlusvua6ab0j',
@@ -62,7 +62,7 @@ module.exports = function (environment) {
     // here you can enable a production-specific feature
     ENV.rootURL = '/ember-amplify-cognito-azure-ad/';
     ENV.APP.amplify.Auth.oauth.redirectSignIn = "/ember-amplify-cognito-azure-ad/tokens";
-    ENV.APP.amplify.Auth.oauth.redirectSignOut = "/ember-amplify-cognito-azure-ad/tokens";
+    ENV.APP.amplify.Auth.oauth.redirectSignOut = "/ember-amplify-cognito-azure-ad/";
     ENV.APP.amplify.logLevel = "ERROR"
   }
 

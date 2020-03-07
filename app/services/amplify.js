@@ -28,7 +28,7 @@ export default class AmplifyService extends Service {
     }
 
     signIn() {
-        Auth.federatedSignIn({ provider: this.amplifyConfig.identityProvider });
+        Auth.federatedSignIn();
     }
 
     signOut() {
