@@ -3,6 +3,9 @@ A basic SAML based authroization code grant flow authentication using AWS Cognit
 
 This repo gives a gist of handling federated sign-in using Amplify's Hub events on callback redirects in ember flow without any promise callbacks.
 
+![Image of auth flow](https://raw.githubusercontent.com/tamdilip/ember-amplify-cognito-azure-ad/master/public/assets/images/Arch.png)
+
+
 ### Installation
 
 ```sh
