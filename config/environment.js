@@ -60,6 +60,10 @@ module.exports = function (environment) {
 
   if (environment === 'production') {
     // here you can enable a production-specific feature
+    ENV.rootURL = '/ember-amplify-cognito-azure-ad/';
+    ENV.APP.amplify.Auth.oauth.redirectSignIn = "/ember-amplify-cognito-azure-ad/tokens";
+    ENV.APP.amplify.Auth.oauth.redirectSignOut = "/ember-amplify-cognito-azure-ad/tokens";
+    ENV.APP.amplify.logLevel = "ERROR"
   }
 
   return ENV;
