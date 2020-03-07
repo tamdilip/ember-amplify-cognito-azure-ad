@@ -15,7 +15,9 @@ This repo gives a gist of handling federated sign-in using Amplify's Hub events 
 #### Post installation
 
 Hit - http://localhost:4200/ 
+
 Takes to Microsoft login page (authenticates only users in active directory)
+
 On succesful login should see below page :)
 
 ![Image of logged-in home pages](https://raw.githubusercontent.com/tamdilip/ember-amplify-cognito-azure-ad/master/public/assets/images/successful-login.png)
