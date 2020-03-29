@@ -20,7 +20,7 @@ This repo gives a gist of handling federated sign-in using Amplify's Hub events 
 
 #### Post installation
 
-Hit - http://localhost:4200/ 
+Hit - http://localhost:4200 
 
 Takes to login page with both Microsoft AzureAD option (authenticates only users in active directory) and Cognito user pool option ( Sign up available)
 
